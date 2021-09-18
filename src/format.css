@@ -1,0 +1,198 @@
+body {
+    /* background-image: url('https://media.istockphoto.com/videos/defocused-particles-background-loop-video-id932483108?b=1&k=6&m=932483108&s=640x640&h=HAwn4USIw_AF3MuWG3E87XQNYCz7MYLq3sWPn7KDNss=');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 200%; */
+float: inline-start;
+position: inherit;
+text-align: center;
+color: white;
+text-decoration: none;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+text-rendering: optimizeLegibility;
+line-height: 23px;
+margin-top: 50px;
+overflow: hidden; /* Hide scrollbars */
+}
+
+#pfp {
+    border-radius: 100%;
+}
+#none {
+    margin: 30px;
+}
+h1 {
+text-align: center;
+text-shadow: transparent;
+color: rgb(252, 249, 249);
+font-family: courier;
+font-size: 150%;
+position: relative;
+border-left: 0px solid rgb(255, 255, 255);
+padding: 30px;
+margin: 50px;
+}
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.container {
+font-family: 'Courier New', Courier, monospace;
+font-size: 150%;
+top: 50%;
+left: 50%;
+}
+.heading h1{
+text-align: center;
+font-size: 15px !important;
+border: 1px inset #423d50;
+padding: 10px;
+margin: 20px;
+background-color: #7f7892!important;
+}
+.title {
+line-height: 40px !important;
+margin-bottom: -2px !important;
+font-size: 16px !important
+}
+.subtitle {
+color: rgba(255, 255, 255, 0.994) !important;
+font-size: 15px !important;
+font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.Blue {
+color: rgb(2, 110, 252);
+border-radius: 30px;
+line-height: 3;
+border: 1px solid rgb(255, 255, 255);
+padding: 5px;
+margin: 10px;
+position: relative;
+text-align: center;
+font-family: monospace;
+width: 10px;
+cursor: pointer;
+transition: 1s;
+}
+.note {
+color: rgb(15, 157, 252);
+
+}
+.skulz {
+color: rgb(0, 255, 221);
+border-radius: 30px;
+line-height: 3;
+border: 1px solid rgb(255, 249, 246);
+padding: 5px;
+margin: 10px;
+position: relative;
+text-align: center;
+font-family: monospace;
+width: 10px;
+padding: 5px;
+margin: 10px;
+cursor: pointer;
+transition: 1s;
+}
+.button3 {
+color: rgb(238, 167, 14);
+border-radius: 30px;
+line-height: 3;
+border: 1px solid rgb(238, 167, 14);
+padding: 5px;
+margin: 10px;
+position: relative;
+text-align: center;
+width: 20px;
+padding: 5px;
+margin: 10px;
+text-transform: uppercase;
+cursor: pointer;
+transition: 1.5s;
+}
+.button4 {
+color: rgb(89, 240, 51);
+border-radius: 30px;
+line-height: 3;
+border: 1px solid rgb(89, 240, 51);
+padding: 5px;
+margin: 10px;
+position: relative;
+text-align: center;
+width: 20px;
+padding: 5px;
+margin: 10px;
+text-transform: uppercase;
+cursor: pointer;
+transition: 1.5s;
+}
+.button5 {
+color: rgb(238, 14, 126);
+border-radius: 30px;
+line-height: 3;
+border: 1px solid rgb(238, 14, 126);
+padding: 5px;
+margin: 10px;
+position: relative;
+text-align: center;
+width: 20px;
+padding: 5px;
+margin: 10px;
+text-transform: uppercase;
+cursor: pointer;
+transition: 1.5s;
+}
+.button6 {
+color: rgb(204, 142, 240);
+border-radius: 30px;
+line-height: 3;
+border: 1px solid rgb(204, 142, 240);
+padding: 5px;
+margin: 10px;
+position: relative;
+text-align: center;
+width: 20px;
+padding: 5px;
+margin: 10px;
+text-transform: uppercase;
+cursor: pointer;
+transition: 1.5s;
+}
+.Blue:hover {
+box-shadow: 0 5px 30px 0 #0044ff inset,  0 5px 30px 0 #0044ff inset, 
+            0 5px 30px 0 #0044ff inset,  0 5px 30px 0 #0044ff inset; 
+}
+.skulz:hover {
+box-shadow: 0 5px 30px 0 #00ffff inset,  0 5px 30px 0 #00ffff inset, 
+            0 5px 30px 0 #00ffff inset,  0 5px 30px 0 #00ffff inset; 
+}
+.button3:hover {
+box-shadow: 0 5px 30px 0 #f7ee73 inset,  0 5px 30px 0 #f7ee73 inset, 
+            0 5px 30px 0 #f7ee73 inset,  0 5px 30px 0 #f7ee73 inset; 
+}
+.button4:hover {
+box-shadow: 0 5px 30px 0 #97f577 inset,  0 5px 30px 0 #97f577 inset, 
+            0 5px 30px 0 #97f577 inset,  0 5px 30px 0 #97f577 inset; 
+}
+.button5:hover {
+box-shadow: 0 5px 30px 0 #e874d0 inset,  0 5px 30px 0 #e874d0 inset, 
+            0 5px 30px 0 #e874d0 inset,  0 5px 30px 0 #e874d0 inset; 
+}
+.button6:hover {
+box-shadow: 0 5px 30px 0 rgb(204, 142, 240) inset,  0 5px 30px 0 rgb(204, 142, 240) inset, 
+            0 5px 30px 0 rgb(204, 142, 240) inset, 0 5px 30px 0 rgb(204, 142, 240) inset; 
+}
+.footer {
+color: white;
+font-family: 'Courier New', Courier, monospace;
+font-size: 120%;
+position: relative;
+}
